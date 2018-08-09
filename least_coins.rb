@@ -1,17 +1,14 @@
 #write out your code here
 
-def least_coins(cents) 
-least_coins = 29
-coins { "quarters","dimes","nickels","dollars"}
-values  { 5,1,3,4}
-puts coins 
-#Code your answer here!
-
-end
-
-least_coins do |money|
+  # Food: apple, Price: 1
+ # Food: banana, Price: 2
+# Food: carrot, Price : 3
+  # shopping_hash = { "apple" => 1, "banana" =>, "carrot" => }
+  puts shopping_hash 
   
-  
+  shopping_hash. each do |food, price|
+    puts "Food: #{food} Price: #{price}"
+    end"
   
   
   
